@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Top 3 Hobbies</title>
+    <!-- Include the Tailwind CSS stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        height: 80px;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "games music travelling";
+      }
+
+      .games {
+        grid-area: games;
+      }
+
+      .music {
+        grid-area: music;
+      }
+
+      .travelling {
+        grid-area: travelling;
+      }
+
+      a {
+        text-decoration: none; /* Remove underlines from links */
+      }
+
+      main {
+        height: calc(100vh - 80px); /* 80px is the height of the header */
+        width: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-200">
+    <header class="bg-white border-b-2 border-gray-300">
+      <div class="container mx-auto px-4 py-6">
+        <h1 class="text-4xl font-bold text-gray-800">My Top 3 Hobbies</h1>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6 h-full">
+      <div class="grid-container h-full">
+        <a href="games.html" class="my-8">
+          <section
+            class="games bg-white shadow-md p-6 hover:bg-gray-100 h-full"
+          >
+            <h2 class="text-2xl font-bold text-gray-800">Games</h2>
+            <p>Information about Games</p>
+          </section>
+        </a>
+
+        <a href="music.html" class="my-8">
+          <section
+            class="music bg-white shadow-md p-6 hover:bg-gray-100 h-full"
+          >
+            <h2 class="text-2xl font-bold text-gray-800">Music</h2>
+            <p>Information about Music</p>
+          </section>
+        </a>
+
+        <a href="outerspace.html" class="my-8">
+          <section
+            class="travelling bg-white shadow-md p-6 hover:bg-gray-100 h-full"
+          >
+            <h2 class="text-2xl font-bold text-gray-800">Travelling</h2>
+            <p>Information about Travelling</p>
+          </section>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
