@@ -1,152 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Gaming - My Top 3 Hobbies</title>
     <!-- Include the Tailwind CSS stylesheet -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body class="bg-gray-400">
     <header class="bg-white bg-gradient-to-b from-white to-gray-400">
-      <div class="flex flex-row gap-4 px-4 py-6">
+      <nav class="flex flex-row gap-4 px-4 py-6">
         <a href="index.html">
           <h1 class="text-4xl font-bold text-gray-800">Home</h1>
         </a>
-        <div>
-          <a href="music.html">
-            <h3 class="text-xl pt-3 font-bold text-gray-800">Music</h3>
-          </a>
-        </div>
-        <div>
-          <a href="memes.html">
-            <h3 class="text-xl pt-3 font-bold text-gray-800">Memes</h3>
-          </a>
-        </div>
-      </div>
+        <a href="music.html">
+          <h3 class="text-xl pt-3 font-bold text-gray-800">Music</h3>
+        </a>
+        <a href="memes.html">
+          <h3 class="text-xl pt-3 font-bold text-gray-800">Memes</h3>
+        </a>
+      </nav>
     </header>
 
-    <main class="px-4 py-6">
+    <main class="px-4 py-6 flex flex-col gap-40">
       <section class="flex flex-row gap-20 my-8">
-        <div class="flex flex-col pl-5 gap-40">
-          <div class="relative flex flex-row gap-40">
-            <img src="./images/black.png" class="w-auto h-56" />
-            <div
-              class="absolute inset-y-0 left-0 opacity-0 hover:opacity-100 duration-300"
-            >
-              <video
-                src="./images/R6clip.mp4"
-                autoplay
-                muted
-                loop
-                class="w-full h-56 aspect-square"
-              ></video>
-            </div>
-            <div class="flex flex-col pl-20 border-l-2 border-black">
-              <h2 class="text-2xl font-bold text-gray-800">
-                Rainbow Six Siege
-              </h2>
-              <p class="mt-4 leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
-                magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
-                pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
-                tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
-                Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
-                arcu ipsum tincidunt urna, ac semper est augue in nisl.
-              </p>
-            </div>
+        <div class="relative w-[600px] h-60">
+          <img src="./images/black.png" class="w-full" />
+          <video src="./images/Ori and the Blind Forest Trailer.mp4" autoplay muted loop
+            class="opacity-0 hover:opacity-100 duration-300 absolute top-0 right-0"></video>
+        </div>
+        <p class="mt-4 leading-7 flex-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
+          magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
+          pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
+          tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
+          Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
+          arcu ipsum tincidunt urna, ac semper est augue in nisl.
           </div>
-          <div class="relative flex flex-row gap-40">
-            <img src="./images/black.png" class="w-auto h-56" />
-            <div
-              class="absolute inset-y-0 left-0 opacity-0 hover:opacity-100 duration-300"
-            >
-              <video
-                src="./images/Counter Strike 2 Trailer (Official).mp4"
-                autoplay
-                muted
-                loop
-                class="w-full h-56 aspect-square"
-              ></video>
-            </div>
-            <div class="flex flex-col pl-20 border-l-2 border-black">
-              <h2 class="text-2xl font-bold text-gray-800">
-                Counter-Strike Global Offensive
-              </h2>
-              <p class="mt-4 leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
-                magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
-                pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
-                tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
-                Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
-                arcu ipsum tincidunt urna, ac semper est augue in nisl.
-              </p>
-            </div>
+      </section>
+      <section class="flex flex-row gap-20 my-8">
+        <div class="relative w-[600px] h-60">
+          <img src="./images/black.png" class="w-full" />
+          <video src="./images/Ori and the Blind Forest Trailer.mp4" autoplay muted loop
+            class="opacity-0 hover:opacity-100 duration-300 absolute top-0 right-0"></video>
+        </div>
+        <p class="mt-4 leading-7 flex-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
+          magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
+          pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
+          tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
+          Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
+          arcu ipsum tincidunt urna, ac semper est augue in nisl.
           </div>
-          <div class="relative flex flex-row gap-40">
-            <div class="relative w-full h-full flex flex-col gap-10">
-              <img src="./images/black.png" class="w-auto h-auto" />
-              <div
-                class="absolute inset-0 opacity-0 hover:opacity-100 duration-300"
-              >
-                <video
-                  src="./images/Ori and the Blind Forest Trailer.mp4"
-                  autoplay
-                  muted
-                  loop
-                  class="w-full h-auto aspect-square"
-                ></video>
-              </div>
-
-              <img src="./images/black.png" class="w-auto h-auto" />
-              <div
-                class="absolute bottom-0 inset-x-0 opacity-0 hover:opacity-100 duration-300"
-              >
-                <video
-                  src="./images/Ori and the Will of the Wisps - E3 2017 - 4K Teaser Trailer.mp4"
-                  autoplay
-                  muted
-                  loop
-                  class="w-full h-auto aspect-square"
-                ></video>
-              </div>
-            </div>
-            <div class="flex flex-col pl-20 border-l-2 border-black">
-              <h2 class="text-2xl font-bold text-gray-800">
-                Ori and the Blind Forest
-              </h2>
-              <p class="mt-4 leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
-                magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
-                pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
-                tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
-                Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
-                arcu ipsum tincidunt urna, ac semper est augue in nisl.
-              </p>
-              <h2 class="pt-24 text-2xl font-bold text-gray-800">
-                Ori and the Will of the Wisps
-              </h2>
-              <p class="mt-4 leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
-                magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
-                pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
-                tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
-                Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
-                arcu ipsum tincidunt urna, ac semper est augue in nisl.
-              </p>
-            </div>
+      </section>
+      <section class="flex flex-row gap-20 my-8">
+        <div class="flex flex-col w-[600px] gap-10">
+          <div class="relative w-full">
+            <img src="./images/black.png" class="w-full h-full" />
+            <video src="./images/Ori and the Blind Forest Trailer.mp4" autoplay muted loop
+              class="w-full h-full opacity-0 hover:opacity-100 duration-300 absolute top-0 right-0"></video>
+          </div>
+          <div class="relative w-full">
+            <img src="./images/black.png" class="w-full h-full" />
+            <video src="./images/Ori and the Blind Forest Trailer.mp4" autoplay muted loop
+              class="w-full h-full opacity-0 hover:opacity-100 duration-300 absolute top-0 right-0"></video>
           </div>
         </div>
+
+        <p class="mt-4 leading-7 flex-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
+          magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
+          pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
+          tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
+          Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
+          arcu ipsum tincidunt urna, ac semper est augue in nisl.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          ullamcorper lobortis justo vel aliquet. Sed malesuada auctor
+          magna, nec pretium justo malesuada vel. Sed ac dolor sed erat
+          pharetra sollicitudin id quis ipsum. Aenean nec nibh a metus
+          tincidunt ullamcorper. Praesent varius tincidunt est nec dictum.
+          Aliquam erat volutpat. Nam semper, leo a feugiat pellentesque,
+          arcu ipsum tincidunt urna, ac semper est augue in nisl.
+
+          </div>
       </section>
     </main>
   </body>
+
 </html>
