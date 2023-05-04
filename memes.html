@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TV Shows - My Top 3 Hobbies</title>
+    <title>Memes - My Top 3 Hobbies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/css.css" />
+    <link rel="icon" href="./images/icon.png" type="image/x-icon" />
   </head>
 
-  <body class="flex flex-col h-screen">
+  <body class="flex flex-col h-screen overflow-x-hidden">
     <header
       class="bg-cover bg-center border-b-2 border-gray-300 bg-[url('https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif')]"
     >
@@ -31,36 +31,77 @@
     </header>
 
     <main
-      class="w-full px-4 py-6 flex-1 bg-no-repeat bg-contain bg-center bg-[url('https://www.meme-arsenal.com/memes/f3361bd0d6555d4d838a1773fd487908.jpg')] flex flex-col items-center"
+      class="w-full flex-1 px-5 py-20 flex flex-col bg-gradient-to-r from-indigo-500 to-black group-[body]:"
     >
-      <div class="container">
-        <section class="my-8">
-          <h2 class="text-2xl font-bold animate-bounce txt">
-            <span>M</span>
-            <span>e</span>
-            <span>m</span>
-            <span>e</span>
-          </h2>
-          <p class="mt-4 leading-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            ullamcorper lobortis justo vel aliquet. Sed malesuada auctor magna,
-            nec pretium justo malesuada vel. Sed ac dolor sed erat pharetra
-            sollicitudin id quis ipsum. Aenean nec nibh a metus tincidunt
-            ullamcorper. Praesent varius tincidunt est nec dictum. Aliquam erat
-            volutpat. Nam semper, leo a feugiat pellentesque, arcu ipsum
-            tincidunt urna, ac semper est augue in nisl.
-          </p>
-          <p class="mt-4 leading-7">
-            Duis malesuada gravida tortor id efficitur. Duis venenatis vitae
-            enim in vulputate. Nam sit amet leo augue. Aliquam erat volutpat.
-            Praesent ac dui consequat, placerat tellus vel, maximus tellus.
-            Aliquam quis tempor lacus. Suspendisse malesuada mauris at justo
-            vulputate, a auctor ipsum blandit. Nam congue mi id nulla blandit,
-            id gravida nibh efficitur. Vivamus quis ipsum fringilla, rutrum
-            mauris vel, ultricies eros.
-          </p>
-        </section>
-      </div>
+      <section class="w-full flex flex-row gap-36 items-center justify-center">
+        <img src="./images/feature.png" alt="" class="w-[280px] -rotate-45" />
+        <img
+          src="./images/codingismypassion.png"
+          alt=""
+          class="w-[280px] rotate-45"
+        />
+      </section>
+      <section
+        class="relative w-full flex flex-row justify-center items-center"
+      >
+        <div class="relative flex justify-center items-center group">
+          <img
+            src="https://i.imgflip.com/7kjf2u.jpg"
+            alt="420 Blaze it bg"
+            class="w-[310px] opacity-0 transition-opacity group-hover:opacity-100 duration-500"
+          />
+          <img
+            src="http://clipart-library.com/data_images/73319.png"
+            alt="Iluminatti"
+            class="absolute opacity-0 w-[180px] transition-opacity delay-500 group-hover:opacity-70 duration-1000"
+          />
+          <img
+            src="./images/blazeit.png"
+            alt=""
+            class="absolute top-12 w-[160px] opacity-0 transition-opacity delay-[1500ms] group-hover:opacity-100 duration-1000"
+          />
+        </div>
+
+        <!--Remove the above <div> for some fun :)-->
+        <!--<div class="relative flex justify-center items-center group">
+          <img
+            src="https://i.imgflip.com/7kjf2u.jpg"
+            alt="420 Blaze it bg"
+            class="w-[310px] opacity-0 transition-opacity group-hover:opacity-100 duration-500"
+          />
+          <div class="absolute inset-0 w-full">
+            <img
+              src="./images/icon.png"
+              alt=""
+              class="absolute inset-0 opacity-0 w-full transition-opacity delay-500 group-hover:opacity-100 duration-1000"
+            />
+            <img
+              src="./images/thuglife.png"
+              alt=""
+              class="absolute top-10 right-24 h-[170px] opacity-0 transition-opacity delay-[1500ms] group-hover:opacity-100 duration-1000"
+            />
+          </div>
+        </div>-->
+
+        <img
+          src="https://i.redd.it/bptzx7ur4uj11.jpg"
+          alt="You add CSS"
+          class="absolute inset-y-0 left-0 w-[300px] rotate-[60deg]"
+        />
+        <img
+          src="https://i.imgflip.com/77cblf.jpg"
+          alt="You add CSS"
+          class="absolute inset-y-0 right-0 w-[300px] rotate-[120deg]"
+        />
+      </section>
+      <section class="w-full flex flex-row gap-40 items-center justify-center">
+        <img
+          src="https://programmerhumor.io/wp-content/uploads/2022/08/programmerhumor-io-java-memes-javascript-memes-563425cde539e29-758x844.jpg"
+          alt=""
+          class="w-[280px] rotate-45"
+        />
+        <img src="./images/headings.png" alt="" class="w-[280px] -rotate-45" />
+      </section>
     </main>
   </body>
 </html>
